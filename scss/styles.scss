@@ -1,3 +1,8 @@
-h1 {
-    color: green;
-}
+@import "./mynormalize";
+@import "./settings";
+@import "./fonts";
+@import "./title";
+@import "./header";
+@import "./sections/banner";
+@import "./sections/popular";
+@import "./sections/leaders";

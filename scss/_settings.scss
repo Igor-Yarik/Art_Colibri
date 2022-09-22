@@ -1,0 +1,19 @@
+body {
+    font-family: 'Montserrat';
+}
+
+.container {
+    width: calc(100% - 30px);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+.leaders {
+
+    .container {
+        width: calc(100% - 10px);
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

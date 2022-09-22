@@ -1,3 +1,229 @@
-h1 {
-  color: green;
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, p {
+  margin: 0;
+}
+
+body {
+  font-family: "Montserrat";
+}
+
+.container {
+  width: calc(100% - 30px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.leaders .container {
+  width: calc(100% - 10px);
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Bold.woff2") format("woff2"), url("/fonts/Montserrat-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-SemiBold.woff2") format("woff2"), url("/fonts/Montserrat-SemiBold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Regular.woff2") format("woff2"), url("/fonts/Montserrat-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fonts/Montserrat-Medium.woff2") format("woff2"), url("/fonts/Montserrat-Medium.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+.title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.subtitle {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 130%;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.header__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  padding-top: 22px;
+  padding-bottom: 23px;
+  border-bottom: 1px solid red;
+}
+
+.navigation {
+  padding-right: 24px;
+  padding-left: 25px;
+}
+
+.search {
+  width: 193px;
+  border: none;
+  text-align: center;
+  background: url("/images/header/search.svg") no-repeat;
+  background-position-x: 26px;
+}
+
+.header__stock {
+  padding-right: 23px;
+  padding-left: 23px;
+}
+
+.header__basket {
+  position: relative;
+  padding-right: 21px;
+  padding-left: 21px;
+}
+.header__basket span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -7px;
+  right: 12px;
+  width: 17px;
+  height: 17px;
+  background: #FFF3FF;
+  border-radius: 6px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 130%;
+  color: #C949CA;
+}
+
+.tell {
+  display: none;
+}
+
+.logo {
+  display: flex;
+  padding-right: 30px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-top: 22px;
+  padding-bottom: 32px;
+  padding-left: 15px;
+}
+.menu__items {
+  display: flex;
+  overflow: auto;
+}
+.menu__link {
+  min-width: max-content;
+  padding: 10px 15px;
+  border: 1px solid #EEEEEE;
+  border-radius: 29px;
+  margin-right: 15px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+}
+
+.banner {
+  background-color: #A1E2EB;
+  background-image: url("/images/banner/bg_banner.jpg");
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-top: 37px;
+  padding-bottom: 36px;
+}
+.banner__items {
+  margin-left: 11px;
+}
+.banner__title {
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+.banner__text {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  color: #FFFFFF;
+}
+.banner__btn {
+  display: inline-flex;
+  margin-top: 25px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 130%;
+  color: #2D2D2D;
+  padding: 10px 20px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.popular {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.popular img {
+  margin-bottom: 10px;
+}
+.popular__items {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 19px;
+  row-gap: 20px;
+}
+.popular__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.leaders__items {
+  display: flex;
+}
+
+.leaders__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.price__item {
+  display: flex;
+  justify-content: space-between;
 }

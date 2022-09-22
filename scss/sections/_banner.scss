@@ -1,0 +1,38 @@
+.banner {
+    background-color: #A1E2EB;
+    background-image: url('/images/banner/bg_banner.jpg');
+    background-repeat: no-repeat;
+    background-position: right;    
+    padding-top: 37px;
+    padding-bottom: 36px;
+
+    &__items {
+        margin-left: 11px;
+    }
+
+    &__title {
+        font-weight: 700;
+        font-size: 28px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+
+    &__text {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 130%;
+        color: #FFFFFF;
+    }
+
+    &__btn {
+        display: inline-flex;
+        margin-top: 25px;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 130%;
+        color: #2D2D2D;
+        padding: 10px 20px;
+        background: #FFFFFF;
+        border-radius: 5px;
+    }
+}

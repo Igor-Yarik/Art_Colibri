@@ -1,0 +1,29 @@
+.leaders {}
+
+.container {}
+
+.title {}
+
+.leaders__items {
+    display: flex;
+
+}
+
+.leaders__item {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.price__item {
+    display: flex;
+    justify-content: space-between;
+}
+
+.price {}
+
+.price__old {}
+
+.price__bye {}
+
+.leaders__subitem {}
